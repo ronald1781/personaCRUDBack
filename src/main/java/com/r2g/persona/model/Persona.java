@@ -15,7 +15,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name="persona")
-public class Persona implements Serializable{
+public class Persona implements Serializable {
 	@Id
 @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
